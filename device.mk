@@ -10,10 +10,7 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, device/acer/t30-common/device_base.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=240 \
-    ro.carrier=unknown \
-    rild.libpath=/system/lib/libhuaweigeneric-ril.so \
-    rild.libargs=-d /dev/ttyUSB2
+    ro.sf.lcd_density=240
 
 # So init files are copied properly in device_base.mk
 PRODUCT_BOOTLOADER := picasso_mf

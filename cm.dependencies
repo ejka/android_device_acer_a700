@@ -6,10 +6,5 @@
 	{
 		"repository": "android_device_acer_t30-common",
 		"target_path": "device/acer/t30-common"
-	},
-	{
-		"repository": "huaweigeneric-ril",
-		"target_path": "hardware/ril/huaweigeneric-ril",
-		"branch": "cm-10.1"
 	}
 ]
